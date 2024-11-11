@@ -1,0 +1,6 @@
+services:
+  helloworld:
+    build:
+      dockerfile: ./build/helloworld.Dockerfile
+    ports:
+      - "8080:8080"
